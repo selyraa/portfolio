@@ -18,3 +18,17 @@ window.onscroll = function() {
         header.classList.remove('navbar-fixed');
     }
 }
+
+// Show More button
+function toggleText() {
+    var moreText = document.getElementById("showMore");
+    var btnText = document.querySelector("#showMoreButton"); 
+
+    moreText.classList.toggle("hidden");
+
+    if (moreText.classList.contains("hidden")) {
+        btnText.textContent = "Show More";
+    } else {
+        btnText.textContent = "Show Less";
+    }
+}

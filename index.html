@@ -52,7 +52,7 @@
                   <a
                     href="#about"
                     class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
-                    >About Me</a
+                    >About</a
                   >
                 </li>
                 <li class="group">
@@ -91,12 +91,11 @@
             <h2 class="font-medium text-secondary text-lg mb-5 lg:text-2xl">
               Informatics Engineering <span class="text-dark">Student</span>
             </h2>
-            <p class="font-medium text-secondary mb-10 leading-relaxed">I'm</p>
-
+            <!-- <p class="font-medium text-secondary mb-10 leading-relaxed">I'm</p> -->
             <a
-              href="#"
+              href="mailto:selyra.123@gmail.com?';"
               class="text-base font-semibold text-white bg-primary py-3 px-4 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
-              >Contact me</a
+              >Contact Me</a
             >
           </div>
 
@@ -140,23 +139,54 @@
               About Me
             </h4>
             <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">
-              judul about me
+              Get to Know Me
             </h2>
-            <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-              culpa hic omnis, facere ea libero explicabo!
+            <p
+              class="font-medium text-base text-secondary max-w-xl lg:text-lg text-justify"
+            >
+              I am a student who is very enthusiastic and committed to entering
+              the world of information technology. Has great curiosity and a
+              high interest in systems analysis and software development,
+              especially web development.
             </p>
+            <div id="showMore" class="hidden">
+              <p
+                class="font-medium text-base text-secondary max-w-xl lg:text-lg text-justify mt-5"
+              >
+                Currently, I am focusing on developing technical skills and
+                business understanding while pursuing a Bachelor's degree in
+                Informatics Engineering at the State Polytechnic of Malang. My
+                coursework and projects have equipped me with a solid foundation
+                in programming languages such as PHP, JavaScript, Python, and
+                HTML/CSS, as well as experience with frameworks like Laravel and
+                Tailwind CSS.
+              </p>
+              <p
+                class="font-medium text-base text-secondary max-w-xl lg:text-lg text-justify mt-5"
+              >
+                My career goals extend beyond software development. I am highly
+                interested in becoming a system analyst, understanding how
+                systems work, identifying their needs, determining suitable
+                technologies, providing solutions to problems, and being
+                directly involved in project development. I aim to bridge the
+                gap between business requirements and technical solutions,
+                ensuring systems are efficient, scalable, and aligned with
+                organizational goals.
+              </p>
+            </div>
+            <button id="showMoreButton" onclick="toggleText()" class="text-primary font-medium mt-3 focus:outline-none">Show More<button>
           </div>
           <div class="w-full px-4 lg:w-1/2">
             <h3
-              class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10"
+              class="font-semibold text-dark text-2xl mb-6 lg:text-3xl lg:pt-10"
             >
               Let's Connect
             </h3>
             <p class="font-medium text-base text-secondary mb-6 lg:text-lg">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto
-              praesentium laboriosam quis temporibus. Nam, laboriosam.
-              Praesentium, alias cumque.
+              If you are interested in collaborating or learning more about my
+              work, please feel free to connect with me through the following
+              channels. I look forward to hearing from you and exploring
+              potential opportunities together!
             </p>
             <div class="flex items-center">
               <!-- instagram -->
@@ -231,21 +261,45 @@
             <h4 class="font-semibold text-lg text-primary mb-2">Portfolio</h4>
             <h2 class="font-bold text-dark text-3xl mb-4">My Latest Project</h2>
             <p class="font-medium text-medium text-secondary">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia,
-              optio qui aut dolor culpa non perferendis. Obcaecati inventore ut
-              fugit.
+              Welcome to my portfolio!<br />Here I showcase some of my recent
+              projects that demonstrate my skills and expertise in web
+              development and software engineering. Feel free to explore my work
+              below and contact me if you have any question or would like to
+              discuss a potential collaboration.
             </p>
           </div>
         </div>
-        <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+        <div
+          class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto"
+        >
           <div class="mb-12 p-4 md:w-1/2">
             <div class="rounded-md shadow-md overflow-hidden">
               <img src="./assets/img/pitaid.png" alt="Gorent" width="w-full" />
-              <h3 class="font-semibold text-xl text-dark mt-5 mb-3 pl-3">pita.id</h3>
-              <p class="font-medium text-base text-secondary text-justify pr-3 pl-3">
-                pita.id or <span class="font-bold">Pindai Data Identitas Indonesia</span> is a mobile application used to scan Indonesian ID Card (KTP). With a focuse on scanning and extracting KTP data, this application is designed to utilize <span class="font-bold text-primary">Computer Vision</span> and <span class="font-bold text-primary">Machine Learning</span>
+              <h3 class="font-semibold text-xl text-dark mt-5 mb-3 pl-3">
+                pita.id
+              </h3>
+              <p
+                class="font-medium text-base text-secondary text-justify pr-3 pl-3"
+              >
+                pita.id or
+                <span class="font-bold">Pindai Data Identitas Indonesia</span>
+                is a mobile application used to scan Indonesian ID Card (KTP).
+                With a focuse on scanning and extracting KTP data, this
+                application is designed to utilize
+                <span class="font-bold text-primary">Computer Vision</span> and
+                <span class="font-bold text-primary">Machine Learning</span>
               </p>
-              <p class="font-medium text-base text-secondary text-justify mt-2 pr-3 pl-3 mb-3">My role in this project is the application of computer vision concepts to improve image quality so as to facilitate the information extraction process, as well as creating a machine learning model with the image to text concept to measure the accuracy of the extraction results.</p>
+              <p
+                class="font-medium text-base text-secondary text-justify mt-2 pr-3 pl-3 mb-3"
+              >
+                My role in this project is applying
+                <span class="font-bold text-primary">computer vision</span>
+                concepts to improve image quality to facilitate the information
+                extraction process, as well as creating a
+                <span class="font-bold text-primary">machine learning</span>
+                model with the image to text concept to measure the accuracy of
+                the extraction results.
+              </p>
             </div>
           </div>
           <div class="mb-12 p-4 md:w-1/2">
@@ -254,10 +308,30 @@
               <h3 class="font-semibold text-xl text-dark mt-5 mb-3 pl-3">
                 GoRent
               </h3>
-              <p class="font-medium text-base text-secondary text-justify pr-3 pl-3">
-                GoRent is a website-based car rental information system. Can be used to find out car availability, rates, and make online reservations. This project was developed to fulfill the final assignment for a Web Designing and Programming course using native PHP.
+              <p
+                class="font-medium text-base text-secondary text-justify pr-3 pl-3"
+              >
+                GoRent is a website-based
+                <span class="font-bold text-primary"
+                  >car rental information system</span
+                >. This system can be used to find out car availability, rates,
+                and make online reservations. This project was developed to
+                fulfill the final assignment for a
+                <span class="font-bold text-primary"
+                  >Web Designing and Programming</span
+                >
+                course using native PHP.
               </p>
-              <p class="font-medium text-base text-secondary text-justify pr-3 pl-3 mt-2 mb-3">My role in this project is as a System Analyst and Backend Developer.</p>
+              <p
+                class="font-medium text-base text-secondary text-justify pr-3 pl-3 mt-2 mb-3"
+              >
+                My role in this project is system requirements
+                <span class="font-bold text-primary">analysis</span>, creating
+                <span class="font-bold text-primary">relational diagrams</span>,
+                database <span class="font-bold text-primary">management</span>,
+                and
+                <span class="font-bold text-primary">backend developer</span>.
+              </p>
             </div>
           </div>
           <div class="mb-12 p-4 md:w-1/2">
@@ -267,13 +341,33 @@
                 alt="Catering"
                 width="w-full"
               />
-              <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
-                Farhan Catering 
+              <h3 class="font-semibold text-xl text-dark mt-5 mb-3 pl-3">
+                Farhan Catering
               </h3>
-              <p class="font-medium text-base text-secondary">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
-                cumque iste quasi commodi eveniet, tempore dolor optio enim
-                ipsam error.
+              <p
+                class="font-medium text-base text-secondary text-justify pr-3 pl-3"
+              >
+                Farhan Catering is a website-based
+                <span class="font-bold text-primary"
+                  >information system used for catering orders</span
+                >, a platform for sharing information about products sold to
+                customers, as well as ordering and product management by Admin.
+                This project was developed with the Laravel framework. This
+                project is a collaborative project with lecturers for
+                <span class="font-bold text-primary"
+                  >"Program Pengabdian kepada Masyarakat"</span
+                >, and has received an
+                <span class="font-bold text-primary">IPR certificate</span>
+              </p>
+              <p
+                class="font-medium text-base text-secondary text-justify pr-3 pl-3 mt-2 mb-3"
+              >
+                My role in this project is system requirements
+                <span class="font-bold text-primary">analysis</span>, creating
+                <span class="font-bold text-primary">relational diagrams</span>,
+                database <span class="font-bold text-primary">management</span>,
+                and
+                <span class="font-bold text-primary">backend developer</span>.
               </p>
             </div>
           </div>
@@ -284,26 +378,75 @@
                 alt="JobCenter"
                 width="w-full"
               />
-              <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
-                Job Center 
+              <h3 class="font-semibold text-xl text-dark mt-5 mb-3 pl-3">
+                Job Center
               </h3>
-              <p class="font-medium text-base text-secondary">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
-                cumque iste quasi commodi eveniet, tempore dolor optio enim
-                ipsam error.
+              <p
+                class="font-medium text-base text-secondary text-justify pr-3 pl-3"
+              >
+                Job Center is a website-based information system proposed in a
+                research project with lecturers, with the aim of
+                <span class="font-bold text-primary"
+                  >bridging job seekers with companies</span
+                >
+                providing job vacancies through one integrated platform. One of
+                the advantages of this website is the implementation of a
+                <span class="font-bold text-primary"
+                  >decision support system</span
+                >
+                that assists in the selection process for recruiting prospective
+                workers by ranking using the Multi-Objective Optimization On The
+                Basis Of Ratio Analysis (MOORA) method. This project was
+                developed with the
+                <span class="font-bold text-secondary">Laravel framework</span>.
+              </p>
+              <p
+                class="font-medium text-base text-secondary text-justify pr-3 pl-3 mt-2 mb-3"
+              >
+                My role in this project was system requirements
+                <span class="font-bold text-primary">analysis</span>, creating
+                <span class="font-bold text-primary">relational diagrams</span>,
+                database <span class="font-bold text-primary">management</span>,
+                and
+                <span class="font-bold text-primary">backend developer</span>.
+                Apart from that, I also
+                <span class="font-bold text-primary"
+                  >applied the concept of a decision support system</span
+                >
+                in this project.
               </p>
             </div>
           </div>
           <div class="mb-12 p-4 md:w-1/2">
             <div class="rounded-md shadow-md overflow-hidden">
               <img src="./assets/img/glj.png" alt="Inventory" width="w-full" />
-              <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
-                Inventory 
+              <h3 class="font-semibold text-xl text-dark mt-5 mb-3 pl-3">
+                Inventory
               </h3>
-              <p class="font-medium text-base text-secondary">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
-                cumque iste quasi commodi eveniet, tempore dolor optio enim
-                ipsam error.
+              <p
+                class="font-medium text-base text-secondary text-justify pr-3 pl-3"
+              >
+                The website-based
+                <span class="font-bold text-primary"
+                  >warehouse inventory information system</span
+                >
+                is a system used to help
+                <span class="font-bold text-primary">manage stock</span> and the
+                status of
+                <span class="font-bold text-primary">goods availability</span>.
+                This project was developed to fulfill the final assignment of
+                the Project 1 course, which was developed using the
+                <span class="font-bold text-secondary">Laravel framework</span>.
+              </p>
+              <p
+                class="font-medium text-base text-secondary text-justify pr-3 pl-3 mt-2 mb-3"
+              >
+                My role in this project is as
+                <span class="font-bold text-primary">Project Manager</span>, who
+                has overall responsibility, starting from planning, team
+                management, supervision, communication with the team and
+                lecturers, as well as directly handling the implementation of
+                system development.
               </p>
             </div>
           </div>
@@ -324,21 +467,37 @@
               Contact Me
             </h2>
             <p class="font-medium text-md text-secondary md:text-lg">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia,
-              optio qui aut dolor culpa non perferendis. Obcaecati inventore ut
-              fugit.
+              I'm always open to new opportunities and collaborations, and I
+              look forward to hearing from you!
             </p>
           </div>
         </div>
 
         <div class="flex justify-center">
-            <button onclick="window.location.href = 'mailto:selyra.123@gmail.com?';" class="flex items-center justify-center text-base font-semibold text-white bg-primary py-3 px-6 rounded-full hover:opacity-80 hover:shadow-lg transition duration-500">
-                <span>Send Me a Massage</span> 
-                <span class="ml-2" style="width: 28px; height: 28px;">
-                    <!-- Icon SVG -->
-                    <?xml version="1.0" ?><svg class="feather feather-send" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><line x1="22" x2="11" y1="2" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
-                </span>
-            </button>
+          <button
+            onclick="window.location.href = 'mailto:selyra.123@gmail.com?';"
+            class="flex items-center justify-center text-base font-semibold text-white bg-primary py-3 px-6 rounded-full hover:opacity-80 hover:shadow-lg transition duration-500"
+          >
+            <span>Send Me a Massage</span>
+            <span class="ml-2" style="width: 28px; height: 28px">
+              <!-- Icon SVG -->
+              <?xml version="1.0" ?><svg
+                class="feather feather-send"
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <line x1="22" x2="11" y1="2" y2="13" />
+                <polygon points="22 2 15 22 11 13 2 9 22 2" />
+              </svg>
+            </span>
+          </button>
         </div>
 
         <!-- <form>
@@ -366,9 +525,9 @@
     <!-- Contact Section End -->
 
     <!-- Footer Start -->
-    <footer class="bg-dark pt-24 pb-12">
+    <footer class="bg-dark pb-12">
       <div class="container">
-        <div class="flex flex-wrap">
+        <!-- <div class="flex flex-wrap">
           <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/2">
             <h2 class="font-bold text-4xl text-white mb-5">office</h2>
             <h3 class="font-bold text-2xl mb-2">Contact Me</h3>
@@ -390,7 +549,7 @@
                 <a
                   href="#about"
                   class="inline-block text-base text-secondary hover:text-primary mb-3"
-                  >About Me</a
+                  >About</a
                 >
               </li>
               <li>
@@ -409,7 +568,7 @@
               </li>
             </ul>
           </div>
-        </div>
+        </div> -->
         <div class="w-full pt-10 border-t border-slate-700">
           <div class="flex items-center justify-center mb-5">
             <!-- instagram -->
@@ -486,7 +645,7 @@
             >
           </p>
         </div>
-      </div>
+      <!-- </div> -->
     </footer>
     <!-- Footer End -->
 
